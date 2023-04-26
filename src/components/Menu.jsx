@@ -27,7 +27,7 @@ function Menu() {
         <div>
           <ul className='flex'>
               <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="/"><li>Home</li></a>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="/about"><li>About</li></a>
+              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="about"><li>About</li></a>
               <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="#"><li>Skills</li></a>
               <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="#"><li>Portfolio</li></a>
               <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg mr-20' href=""><li>Contact</li></a>

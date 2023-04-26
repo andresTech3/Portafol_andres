@@ -8,6 +8,8 @@ import Cv from './components/Cv'
 import Skill from './components/Skill'
 import Proyect from './components/Proyect'
 
+
+
 function App() {
 
   return (
