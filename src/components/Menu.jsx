@@ -13,24 +13,20 @@
 // limitations under the License.
 
 import React from 'react'
-
 function Menu() {
 
   //bg-gray-900
 
-  
-
   return (
-    <div className= 'w-full h-15 fixed z-10 bg-gray-900 rounded-b-2xl'>
+    <div className= 'w-full h-15 fixed bg-gray-900 rounded-b-2xl z-50 cursor-pointer z-index-10'>
       <div className='flex p-5 justify-between'>
         <a className=' pl-32 leading-5 text-2xl text-teal-500'>Andres</a>
         <div>
           <ul className='flex'>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="/"><li>Home</li></a>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="about"><li>About</li></a>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="#"><li>Skills</li></a>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' href="#"><li>Portfolio</li></a>
-              <a className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg mr-20' href=""><li>Contact</li></a>
+              <a href="home" className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' ><li>Home</li></a>
+              <a href="about" className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' ><li>About</li></a>
+              <a href="skills" className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' ><li>Skills</li></a>
+              <a href="portafolio" className='ml-9 transition-all ease-in-out hover:text-teal-500 hover:text-lg' ><li>Portfolio</li></a>
           </ul>
         </div>
       </div>

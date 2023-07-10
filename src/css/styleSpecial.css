@@ -1,0 +1,49 @@
+.cicleLevel{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background :linear-gradient(
+        0deg,
+        #262626 50%,
+        rgba(252, 83, 0) 50%
+    );
+    position: relative;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.2rem;
+    color: rgba(12,92,160);
+    font-weight: 800;
+    transform: rotate(340deg);
+}
+
+.cicleLevel::before{
+    content: 'HTML5';
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #222 content-box;
+    border-radius: 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 4rem;
+    transform: rotate(-340deg);
+}
+
+.cicleLevel::after{
+    content: '90%';
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: linear-gradient(transparent 50%, #262626 50%);
+    color: #fff;
+    line-height: 8rem;
+    transform: scale(1.1) rotate(-340deg);
+}
